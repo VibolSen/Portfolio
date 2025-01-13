@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -53,20 +54,16 @@
                                     <h1><span>Graphic Designer</span></h1>
                                 </span>
                             </div>
-                            <p>Nice to meet you! Let's connect on social media.</p>
+                            <p>
+                                "As a dedicated developer and student, I specialize in creating user-friendly
+                                applications and solving complex problems.
+                                My projects, like 'Cookbooks' and 'Tour Guide,' reflect my passion for blending
+                                creativity and technology to deliver
+                                exceptional results." &#128540;&#128540;
+                            </p>
                         </div>
                     </div>
-                    <div class="social-icons">
-                        <a href="#"><img src="./image/icon/github.png" alt="GitHub"></a>
-                        <a href="#"><img src="./image/icon/telegram.png" alt="Telegram"></a>
-                        <a href="#"><img src="./image/icon/facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="./image/icon/tik-tok.png" alt="TikTok"></a>
-                    </div>
-                </div>
-    
-                <!-- Right Side: Image -->
-                <div class="image-pc">
-                    <img src="./image/Blue Purple Modern Animated Computer Science Presentation (1).gif" alt="Hero Image">
+
                 </div>
             </div>
         </div>
@@ -74,14 +71,14 @@
 
     <!-- About Me -->
     <section class="aboutme" id="aboutme">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="90">
             <div class="about-content">
                 <div class="about-img-holder">
                     <img src="./image/Frame1.png" class="about-img" alt="About Me">
                 </div>
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I?</p>
-                    <h2 class="section-title">About Me</h2>
+                    <h2 class="section-title">About <span>Me</span></h2>
                     <p>
                         Enthusiastic and hardworking software development student
                         with proven organizational and communication skills. I can take
@@ -90,17 +87,37 @@
                         accuracy have been proven in numerous assignments and
                         group projects.
                     </p>
-                    <button class="btn-download">
-                        <span>Download CV</span>
-                    </button>
+                    <div class="icon">
+                        <div class="socail">
+                            <p>Socail madia</p>
+                            <div class="social-icons">
+                                <a href="#"><img src="./image/icon/github.png" alt="GitHub"></a>
+                                <a href="#"><img src="./image/icon/telegram.png" alt="Telegram"></a>
+                                <a href="#"><img src="./image/icon/facebook.png" alt="Facebook"></a>
+                                <a href="#"><img src="./image/icon/tik-tok.png" alt="TikTok"></a>
+                            </div>
+                        </div>
+                        <div class="main-skill">
+                            <p>Main Skill</p>
+                            <div class="social-icons">
+                                <a href="#"><img src="./image/icon/photoshop_5968520.png" alt="GitHub"></a>
+                                <a href="#"><img src="./image/icon/figma_5968705.png" alt="Telegram"></a>
+                                <a href="#"><img src="./image/icon/visual-studio_906324.png" alt="Facebook"></a>
+                                <a href="#"><img src="./image/icon/tik-tok.png" alt="TikTok"></a>
+                            </div>
+                        </div>
+                        <div class="CV">
+                            <a href="#" class="hbtn hb-fill-right">Download My Cv</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Education -->
-    <section class="education" id="education">
-        <h1 class="topic">Education</h1>
+    <section class="hero" id="education">
+        <h1 class="title">Education</h1>
         <div class="timeline">
             <!-- Timeline Event 1 -->
             <div class="timeline-event left">
@@ -137,7 +154,7 @@
 
     <!-- Experience -->
     <section class="hero" id="experain">
-        <h1 class="topic">Experain</h1>
+        <h1 class="title">Experain</h1>
         <div class="timeline">
             <div class="timeline-event left">
                 <div class="date">SROLANH Smart Store</div>
@@ -190,7 +207,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Design Skills -->
             <div class="skill-content">
                 <h3 class="skill-title">Design Skills</h3>
@@ -215,6 +232,10 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

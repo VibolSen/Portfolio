@@ -853,7 +853,7 @@ textarea {
 /* Responsive Styles */
 
 /* General Responsive Adjustments */
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .navbar {
     padding: 10px 10px;
   }
@@ -874,12 +874,10 @@ textarea {
 
   .home-img {
     max-width: 100%;
-    margin-top: 20px;
   }
 
   .home-img img {
-    width: 80%;
-    margin-top: 20px;
+    margin-top: -70px;
   }
 
   .about-content {
@@ -891,20 +889,7 @@ textarea {
     max-width: 100%;
   }
 
-  .timeline-event.left,
-  .timeline-event.right {
-    width: 100%;
-    left: 0;
-  }
 
-  .timeline::before {
-    left: 20px;
-  }
-
-  .timeline-event.left::before,
-  .timeline-event.right::before {
-    left: 10px;
-  }
 
   .skill-content {
     flex: 1 1 45%;
@@ -1020,6 +1005,7 @@ textarea {
   .timeline-event.right::before {
     left: 50%;
     transform: translateX(-50%);
+    top: -10px;
   }
 
   .timeline::before {
@@ -1091,4 +1077,4 @@ textarea {
   .contact-form button {
     font-size: 14px;
   }
-} */
+}
